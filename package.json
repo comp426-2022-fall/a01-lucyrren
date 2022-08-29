@@ -1,0 +1,22 @@
+{
+  "name": "lucyren-webserver",
+  "version": "1.0.0",
+  "description": "This assignment will help you get started working with Node.js by hacking your way through creating a webserver from scratch.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a01-lucyrren.git"
+  },
+  "author": "lucyrren",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a01-lucyrren/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a01-lucyrren#readme",
+  "dependencies": {
+    "minimist": "^1.2.6"
+  }
+}
