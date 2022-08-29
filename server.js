@@ -20,6 +20,8 @@ if (err) {
     console.error(err);
     return;
   }
+  console.log(data);
+});
 
 
 
@@ -42,7 +44,6 @@ const server = http.createServer((req, res) => {
 server.listen(port, () => {
     console.log(`Server running at port ${port}`)
   })
-});
 
 
 // That's it! You're all done!
